@@ -22,7 +22,7 @@ const FeedbackForm = () =>{
   const submitForm = (e) =>{
     e.preventDefault();
     setTime((data) => {
-      return [...data,[`Name = ${name} | Department = ${depart} | Rating = ${rating} `]] 
+      return [...data,[`Name -> ${name} | Department -> ${depart} | Rating -> ${rating} `]] 
     })
   
   }
